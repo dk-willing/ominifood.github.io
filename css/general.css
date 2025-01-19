@@ -49,6 +49,8 @@ Spacing System(px)
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+
+  scroll-behavior: smooth;
   /* This would set the default font size to 10px, and would respect the user's font setting */
 }
 
