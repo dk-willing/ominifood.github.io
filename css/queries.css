@@ -202,6 +202,14 @@
     grid-column: span 3;
   }
 
+  .logo-col {
+    gap: 1.2rem;
+  }
+
+  .copyright {
+    margin-top: 1.2rem;
+  }
+
   .nav-col {
     grid-row: 1;
     grid-column: span 2;
