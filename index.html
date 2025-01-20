@@ -576,13 +576,14 @@
                 first meal is on us!
               </p>
 
-              <form action="#" class="cta-form">
+              <form class="cta-form" name="sign-up" netlify>
                 <div>
                   <label for="full-name">Full Name</label>
                   <input
                     type="text"
                     id="full-name"
                     placeholder="John Doe"
+                    name="full-name"
                     required
                   />
                 </div>
@@ -593,13 +594,14 @@
                     type="email"
                     id="email"
                     placeholder="me@example.com"
+                    name="email"
                     required
                   />
                 </div>
 
                 <div>
                   <label for="select-where">Where did you hear from us?</label>
-                  <select name="" id="select-where" required>
+                  <select name="select-where" id="select-where" required>
                     <option value="">Please select one option</option>
                     <option value="friends">Friends and Family</option>
                     <option value="youtube">YouTube video</option>
@@ -668,7 +670,7 @@
               >
               <a
                 class="footer-link address-link"
-                href="mailto:davidkarikari89@gmail.com"
+                href="mailtod:davidkarikari89@gmail.com"
                 ><ion-icon class="address-icon" name="mail-outline"></ion-icon
                 >davidkarikari89@gmail.com</a
               >
